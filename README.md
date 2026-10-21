@@ -1,4 +1,4 @@
-# 123D Patchs
+# 123D Design Patchs
 
 Kit de patchs autonomes pour **Autodesk 123D Design** (R2.2), abandonné par
 Autodesk en 2017 : correctifs de crashs, mémoire, fonctionnalités cachées et
