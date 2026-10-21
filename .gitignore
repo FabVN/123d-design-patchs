@@ -1,0 +1,15 @@
+# Patch premium (contournement licensing) - local seulement, jamais publie
+UIPremium/
+
+# Artefacts locaux - jamais dans le repo
+*.log
+*.orig
+*.bak123d*
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers temporaires Windows
+Thumbs.db
+desktop.ini
+~$*
