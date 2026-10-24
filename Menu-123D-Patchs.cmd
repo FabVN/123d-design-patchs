@@ -22,9 +22,9 @@ echo      Reserve de pile de "123D Design.exe" : ~9,5 Mo vers 256 Mo.
 echo      Corrige les crashs "stack overflow" sur les operations
 echo      lourdes (booleens, annulations profondes).
 echo.
-echo  [2] CrashFix (v4)
-echo      Corrige les crashs "null activeCommand" de Na123DUI10.dll
-echo      apres une commande (Snap, menus, barre d'outils).
+echo  [2] CrashFix (v12)
+echo      Corrige les crashs "null activeCommand" et le blocage
+echo      en mode selection faces/aretes apres Snap (NuBase10).
 echo      Patche aussi la reserve de pile du lanceur.
 echo.
 echo  [3] FrenchLanguage

@@ -20,7 +20,7 @@ traduction française.
 | Paquet | Rôle |
 |---|---|
 | `BoostStackMemory/` | Réserve de pile de `123D Design.exe` : ~9,5 Mo → 256 Mo. Corrige les *stack overflow* sur les opérations lourdes (booléens, undo). |
-| `CrashFix/` | Crash « null activeCommand » dans `Na123DUI10.dll` après une commande (Snap, menus, barre d'outils). Ajoute une section `.fix` avec gardes de pointeurs nuls + le patch de pile du lanceur. |
+| `CrashFix/` | Crash Â« null activeCommand Â» dans `Na123DUI10.dll` + blocage Â« Ctrl coincÃ© Â» (mode sÃ©lection faces/arÃªtes aprÃ¨s Snap) dans `NuBase10.dll`. Gardes de pointeurs nuls, relance de la commande par dÃ©faut sur pile vidÃ©e, retour 0 au lieu de `bad_lexical_cast`, patch de pile du lanceur. |
 | `FrenchLanguage/` | Débloque et active **fr-FR** : whitelist de `NsBase10.dll`, redirection du chargeur `.qm` de `NuBase10.dll`, fichiers `qml_fr.qm`/`qt_fr.qm`, option XML, correctif des tooltips de flyout. |
 | `HiddenFeatures/` | Options internes (XML utilisateur uniquement) : télémétrie / mises à jour / écran d'accueil **OFF**, fenêtre de commandes texte **ON**. + lanceurs documentés (`--execute`, `--swrenderer`, …). |
 
